@@ -11,10 +11,3 @@ module ArtistsHelper
     end
   end
 end
-
-#if song.artist.nil ?
-#   <%= f.select :author_id, options_from_collection_for_select(Author.all, :id, :name) %><br>
-# else
-#
-#  <% end %>
-end
