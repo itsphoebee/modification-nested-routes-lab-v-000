@@ -41757,3 +41757,4 @@ Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
   Rendered songs/show.html.erb (1.4ms)
   [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
