@@ -10,4 +10,5 @@ module ArtistsHelper
       artist.name
     end
   end
+  
 end
