@@ -30,7 +30,8 @@ class SongsController < ApplicationController
       if artist.exists?
         @song = Song.new(artist_id:artist.id)
       else
-
+      end
+    end
   end
 
   def create
