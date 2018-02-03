@@ -30,6 +30,7 @@ class SongsController < ApplicationController
       if artist.exists?
         @song = Song.new(artist_id:artist.id)
       else
+        redirect_to artists_path, alert: "Artist not found"
       end
     end
   end
